@@ -180,18 +180,8 @@ textarea {
 
 /* end normalize.css form styles */
 
-
-
-
-
-
-
-
-
-
-
 /*
-  Setting the type to major third modular scale
+  Setting the type to minor second modular scale
   http://www.modularscale.com/?1&em&1.067&web&text
 
 */
@@ -214,19 +204,30 @@ h1 {
 p {
   font-family: Sabon;
   padding-left: .5em;
+  padding-bottom: .875em;
 }
 
 form, li {
   font-family: serif;
-  font-size: .958333333em;/* 1.383em; *//* 22.128px / 16px */
-  line-height: 1.265365146em;
-  padding:.5em;
-
+  font-size: .958333333em;/* 23px / 24px */
+  line-height: .875em; /*14px / 16px */
+  padding-left:.5em;
 }
+
+label, input {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  }
 
 
 /* ===== LAYOUT STYLES ===== */
 
 /* ===== MODULAR STYLES ===== */
-
+  form li {
+  margin-bottom: 28px;
+    }
 /* ===== STATE STYLES ===== */
