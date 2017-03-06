@@ -227,6 +227,16 @@ label, input {
 /* ===== LAYOUT STYLES ===== */
 
 /* ===== MODULAR STYLES ===== */
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .5em;
+ }
+
+
   form li {
   margin-bottom: 28px;
     }
