@@ -210,7 +210,6 @@ p {
 form, li {
   font-family: serif;
   font-size: .958333333em;/* 23px / 24px */
-  line-height: .875em; /*14px / 16px */
   padding-left:.5em;
 }
 
@@ -241,3 +240,16 @@ img {
   margin-bottom: 28px;
     }
 /* ===== STATE STYLES ===== */
+  @media screen and (min-width: 37.5em) { /* 600 pixels */
+
+  li {
+  background-color: rgba(5,4,2,0.1);
+  width:80%;
+  height: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 1em;
+}
+
+
+  } /* end 600 px */
