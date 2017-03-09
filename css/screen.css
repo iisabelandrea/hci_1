@@ -197,6 +197,7 @@ html {
 
 h1 {
   font-family: Sabon;
+  font-weight: bold;
   padding-left: .5em;
   padding-bottom: 2.5em;
 }
@@ -275,6 +276,4 @@ img {
   margin-right:auto;
   padding: 1em;
   }
-
-
   } /* end 800 px */
