@@ -235,14 +235,15 @@ img {
   padding: .5em;
  }
 
-
   form li {
-  margin-bottom: 28px;
+  margin-bottom: 1.75em;
+
     }
 /* ===== STATE STYLES ===== */
   @media screen and (min-width: 37.5em) { /* 600 pixels */
 
   li {
+  text-align: center;
   background-color: rgba(5,4,2,0.1);
   width:80%;
   height: 100%;
@@ -250,5 +251,30 @@ img {
   margin-right:auto;
   padding: 1em;
 }
-
   } /* end 600 px */
+
+
+  @media screen and (min-width: 50em) { /*800 pixels*/
+  html {
+  text-align:center;
+  background-color: #e6fff7;
+  }
+
+  p {
+  padding-left: 4em;
+  padding-right:4em;
+}
+
+ }
+  form {
+  text-align: center;
+  background-color: rgba(5,4,2,0.1);
+  width:80%;
+  height: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 1em;
+  }
+
+
+  } /* end 800 px */
