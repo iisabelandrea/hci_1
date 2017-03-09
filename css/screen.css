@@ -195,7 +195,8 @@ html {
   background-color: #00FFFF;
 }
 
-h1 {
+h1, h2 {
+  text-align: center;
   font-family: Sabon;
   font-weight: bold;
   padding-left: .5em;
